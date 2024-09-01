@@ -1,6 +1,1 @@
-THIS FILE IS USED IN PRACTICAL 5.
-THE PRACTICAL IS ABOUT Show the use of  
-•	Git fetch  
-•	git diff command,   
-•	git diff tool  
-•	git restore command (to Restore files(e.g.: 2 out of total 5 files) from staging area that you don’t want to commit)  
+changes are made to perform git difftool command
