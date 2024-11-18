@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Fetch from GitHub') {
             steps {
-                git 'https://github.com/Varunkaushik2004/DEVOPS'
+                git 'https://github.com/Varunkaushik2004/DEVOPS.git'
             }
         }
         stage('Build') {
