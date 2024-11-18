@@ -1,14 +1,14 @@
 pipeline {
     agent any
     stages {
-        stage('Fetch from GitHub') {
+        stage('Checkout') {
             steps {
-                git https://github.com/Varunkaushik2004/DEVOPS
+                git 'https://github.com/Varunkaushik2004/DEVOPS.git'
             }
         }
         stage('Build') {
             steps {
-                sh 'echo "Build Step"'
+                bat  'echo "Build Step"'
             }
         }
         stage('Test') {
